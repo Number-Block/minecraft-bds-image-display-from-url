@@ -1,0 +1,49 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "",
+        "name": "Display",
+        "uuid": "70f16c3c-9fb3-4487-944d-50131a8cc278",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            19,
+            70
+        ]
+    },
+    "modules": [
+        {
+            "description": "module",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "0ac8f059-30c1-4477-ad9b-255d5b546fac",
+            "version": [
+                1,
+                0,
+                0
+            ],
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.3.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-net",
+            "version": "1.0.0-beta"
+        }
+    ],
+    "metadata": {
+        "authors": [
+            "DiscordName:ダイヤブロック#2582"
+        ],
+        "license": "LGPL-3.0",
+        "url": "https://www.youtube.com/channel/UCcd1cOtNdDZFSYIbw5UemGA"
+    }
+}
