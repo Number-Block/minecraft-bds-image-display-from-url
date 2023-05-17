@@ -14,7 +14,7 @@ This server uses port 8080.
 Only players with the display tag can use the display function in Minecraft.
 Run the command in chat as follows.
 
-!display <width size> <image format> <image URL>
+!display (width size) (image format) (image URL)
 
 example:
 !display 80 png https://images.com/minecraft/image.png
