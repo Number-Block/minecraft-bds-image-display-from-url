@@ -1,7 +1,7 @@
 # minecraft-bds-image-display-from-url
 http server, resource pack, behavior pack that can display images from URLs that can be used with BDS
 
-The copyright of this program etc. is abandoned.
+I disclaim any copyrights that I own.
 The manufacturer is not responsible for any problems.
 
 The behavior pack is the behavior_pack/display folder inside the behavior_pack folder.
@@ -24,5 +24,3 @@ Supported image formats are png, jpg, and jpeg.
 
 This program and others are not optimized.
 It may be vulnerable, so it is recommended not to let untrusted players operate it.
-
-Copyright is waived, so feel free to make improved programs.
