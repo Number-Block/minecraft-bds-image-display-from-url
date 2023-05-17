@@ -25,4 +25,4 @@ Supported image formats are png, jpg, and jpeg.
 This program and others are not optimized.
 It may be vulnerable, so it is recommended not to let untrusted players operate it.
 
-Copyright is waived, so feel free to make improved programs
+Copyright is waived, so feel free to make improved programs.
