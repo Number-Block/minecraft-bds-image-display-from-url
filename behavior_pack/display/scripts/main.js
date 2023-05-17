@@ -6,6 +6,8 @@ import {
   http,
 } from "@minecraft/server-net";
 
+const displayServerUrl = "http://localhost:8080/minecraft/display";
+
 world.afterEvents.chatSend.subscribe(async (ev) => {
   if (ev.message[0] != "!") return;
   const command = ev.message.split(" ");
@@ -13,8 +15,7 @@ world.afterEvents.chatSend.subscribe(async (ev) => {
     case "!display":
       if (!ev.sender.hasTag("displayer")) return;
       const response = await postImageUrl(
-        command[1] + " " + command[2] + " " + command[3],
-        "http://localhost:8080/minecraft/display"
+        command[1] + " " + command[2] + " " + command[3]
       );
 
       const displayCommands = response.body.split("/");
@@ -29,7 +30,7 @@ world.afterEvents.chatSend.subscribe(async (ev) => {
   }
 });
 
-async function postImageUrl(url, displayServerUrl) {
+async function postImageUrl(url) {
   try {
     const req = new HttpRequest(displayServerUrl);
     req.method = HttpRequestMethod.POST;
