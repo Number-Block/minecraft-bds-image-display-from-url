@@ -10,6 +10,9 @@ The resource pack is the resource_pack/display folder inside the resource_pack f
 display_server/bin/display_server.exe is the http server.
 Behavior packs and resource packs must be running in order for them to work.
 This server uses port 8080.
+The http server port can be set with the environment variable MINECRAFT_DISPLAY_PORT
+If you change the port, const displayServerUrl = "http://localhost:8080/minecraft/display" in behavior_pack/display/scripts/main.js;
+Also change the port of
 
 Only players with the display tag can use the display function in Minecraft.
 Run the command in chat as follows.
