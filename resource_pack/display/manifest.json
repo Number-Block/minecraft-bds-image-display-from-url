@@ -1,0 +1,25 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Display",
+		"description": "Display Resource Pack",
+		"uuid": "3da7e461-5319-137b-5473-4ae5fa25282a",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"modules": [
+		{
+			"description": "Display",
+			"type": "resources",
+			"uuid": "17fead1d-f6fd-8f9c-4832-00fadee1a89e",
+			"version": [1, 0, 0]
+		}
+	],
+	"metadata": {
+        "authors": [
+            "DiscordName:ダイヤブロック#2582"
+        ],
+        "license": "LGPL-3.0",
+        "url": "https://www.youtube.com/channel/UCcd1cOtNdDZFSYIbw5UemGA"
+    }
+}
