@@ -13,7 +13,7 @@ world.afterEvents.chatSend.subscribe(async (ev) => {
   const command = ev.message.split(" ");
   switch (command[0]) {
     case "!display":
-      if (!ev.sender.hasTag("displayer")) return;
+      if (!ev.sender.hasTag("display")) return;
       const response = await postImageUrl(
         command[1] + " " + command[2] + " " + command[3],
         httpServerURL
@@ -50,12 +50,10 @@ function spawnParticles(response, sender) {
 }
 
 async function postImageUrl(url, displayServerUrl) {
-  try {
-    const req = new HttpRequest(displayServerUrl);
-    req.method = HttpRequestMethod.POST;
-    req.headers = [new HttpHeader("Content-Type", "text/plain")];
-    req.body = url;
-    const response = await http.request(req);
-    return response;
-  } catch (_) {}
+  const req = new HttpRequest(displayServerUrl);
+  req.setMethod(HttpRequestMethod.Post);
+  req.headers = [new HttpHeader("Content-Type", "text/plain")];
+  req.body = url;
+  const response = await http.request(req);
+  return response;
 }
