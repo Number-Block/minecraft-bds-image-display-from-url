@@ -19,7 +19,7 @@ The http server port can be set with the environment variable MINECRAFT_DISPLAY_
 If you change the port, const displayServerUrl = "http://localhost:8080/minecraft/display" in behavior_pack/display/scripts/main.js;
 Also change the port of
 
-Only players with the display tag can use the display function in Minecraft.
+Only players with the "display" tag can use the display function in Minecraft.
 Run the command in chat as follows.
 
 !display (width size) (image format) (image URL)
