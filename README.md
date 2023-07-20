@@ -4,7 +4,7 @@ http server, resource pack, behavior pack that can display images from URLs that
 I disclaim any copyrights that I own.
 The manufacturer is not responsible for any problems.
 
-This behavior pack has been verified to work with 1.20.0.24.
+This behavior pack has been verified to work with 1.20.12.
 This behavior pack uses the beta api.
 See here for details.
 https://learn.microsoft.com/en-us/minecraft/creator/documents/scriptingservers
